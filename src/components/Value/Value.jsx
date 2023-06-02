@@ -28,7 +28,7 @@ const Value = () => {
             <span className="primaryText">Value we give to you</span>
             <span className="secondaryText">
               Discover your dream home with our extensive selection of <br />
-              properties, expert agents, and personalized search tools, making{" "}
+              properties, expert agents, and personalized search tools, making
               your real estate journey seamless and rewarding.
             </span>
 
@@ -50,7 +50,6 @@ const Value = () => {
                           }
                         </AccordionItemState>
 
-                        
                         <div className="flexCenter icon">{item.icon}</div>
                         <span className="primaryText heading">
                           {item.heading}
