@@ -1,0 +1,105 @@
+.f-wrapper {
+    background: var(--black);
+
+    .f-container {
+        gap: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .f-left {
+
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+
+            a {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        .f-right {
+            .about-us {
+
+                span {
+                    font-size: 1rem;
+                }
+
+                .icons {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 10px;
+                    // border: 0.8px solid rgba(128, 128, 128, 0.143);
+                    transition: 400ms ease-in;
+                    cursor: pointer;
+                    border-radius: 25px;
+
+                    svg {
+                        fill: var(--blue);
+                    }
+
+                    svg:hover {
+                        scale: 0.8;
+                    }
+
+                }
+
+
+
+
+
+
+                .icons>:nth-child(1) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border: none;
+                    outline: none;
+                    margin: 0.5rem;
+                    margin-bottom: 1rem;
+                }
+
+
+                .icons>:nth-child(2) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    outline: none;
+                    border: none;
+                    margin: 0.5rem;
+                    margin-bottom: 1rem;
+
+                }
+
+                .icons>:nth-child(3) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border: none;
+                    outline: none;
+                    margin: 0.5rem;
+                    margin-bottom: 1rem;
+
+                }
+
+                .icons>:nth-child(4) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border: none;
+                    outline: none;
+                    margin: 0.5rem;
+                    margin-bottom: 1rem;
+
+                }
+
+
+                .icons:hover {
+                    scale: 1.1;
+                    box-shadow: var(--shadow);
+                }
+
+
+            }
+        }
+    }
+}
